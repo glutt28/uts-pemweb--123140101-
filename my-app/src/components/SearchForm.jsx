@@ -43,7 +43,11 @@ const SearchForm = ({ onSearch, unit }) => {
   const handleSuggestionClick = (suggestion) => {
     const cityName = `${suggestion.name}${suggestion.state ? ', ' + suggestion.state : ''}, ${suggestion.country}`;
     setCity(cityName);
-    onSearch(suggestion.name, suggestion.lat, suggestion.lon);
+    // Menggunakan nama lengkap kota termasuk state-nya jika ada
+    const fullCityName = suggestion.state 
+      ? `${suggestion.name}, ${suggestion.state}`
+      : suggestion.name;
+    onSearch(fullCityName, suggestion.lat, suggestion.lon);
     setShowSuggestions(false);
   };
 

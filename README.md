@@ -85,4 +85,4 @@ npm run dev
 - Local Storage (untuk menyimpan riwayat pencarian)
 
 ## Link Deployment
-https://github.com/glutt28/uts-pemweb--123140101- 
+[(https://uts-pemweb-123140101.vercel.app/)](https://uts-pemweb-123140101.vercel.app/) 

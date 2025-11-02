@@ -83,3 +83,6 @@ npm run dev
 - JavaScript/JSX
 - OpenWeatherMap API
 - Local Storage (untuk menyimpan riwayat pencarian)
+
+## Link Deployment
+https://github.com/glutt28/uts-pemweb--123140101- 
